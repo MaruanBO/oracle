@@ -1,0 +1,26 @@
+seguridad: 
+V-limitar el salario maximo de los empleados a 10000
+V-limitar modificacion salarial en fechas de vacaciones
+
+auditoria:
+V-historial de acciones con fecha, usuario, tipo, tabla
+V-historial del incremento del salario de los empleados
+
+integridad de datos:
+V-limitar los empleados del departamento 50 a 45 empleados
+V-las comisiones no pueden ser superiores al 0,40
+
+integridad referencial:
+V-update cascade
+V-delete cascade
+
+replicación de tablas:
+V-replicar las actualizaciones realizados en una tabla a otra de respaldo
+
+cálculo de datos derivados:
+V-Mostrar el nuevo, viejo salario y la diferencia salarial
+
+control de eventos:
+V-los trabajos con la comision inferior a 0.2 disminuye su salario
+-Si el empleado tiene mas de 10 años en la empresa automaticamente sube un 10% su salario base
+
